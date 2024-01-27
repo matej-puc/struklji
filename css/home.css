@@ -1,0 +1,104 @@
+/* YouTube Section */
+  .youtube__container {
+    padding: 15px;
+  }
+  
+  .latest__video iframe {
+    width: 560px;
+    height: 313px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* Postopek Section */
+
+   .postopek__main__phone {
+    display: none;
+   }
+
+   .postopek__main__pc {
+    padding: 0 5em;
+   }
+
+   .postopek__section {
+    display: flex;
+   }
+
+   .postopek__image {
+    width: 50%;
+    text-align: center;
+   }
+
+   .postopek__text {
+    width: 50%;
+    padding: 1em;
+    margin: auto;
+   }
+
+   .postopek__image img{
+    padding: 1em;
+    width: 100%;
+    height: auto;
+   }
+
+   .section__line {
+    width: 80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:lightgray;
+   }
+  
+  /* Mobile Responsive - Phones*/
+  @media screen and (max-width: 767px) {
+  
+    .section__title {
+      font-size: 1.2rem;
+    }
+  
+    .latest__video iframe {
+      width: 500px;
+      height: 279px;
+    }
+
+    .postopek__main__pc {
+      display: none;
+    }
+
+    .postopek__main__phone {
+     display: block;
+    }
+
+    .postopek__section {
+      flex-flow: row wrap;
+    }
+
+    .postopek__image {
+      width: auto;
+    }
+
+    .postopek__text {
+      width: auto;
+    }
+  
+  }@media screen and (max-width: 590px) {
+    .latest__video iframe {
+      width: 350px;
+      height: 194px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    .latest__video iframe {
+      width: 250px;
+      height: 140px;
+    }
+  }
+  
+  @media screen and (max-width: 364px) {
+  
+    .latest__video iframe {
+      width: 180px;
+      height: 101px;
+    }
+  }

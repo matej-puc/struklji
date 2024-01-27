@@ -1,0 +1,33 @@
+.recept {
+    padding-top: 1em;
+    margin: 5em;
+}
+
+.recept__section {
+    width: 60%;
+    margin: auto;
+}
+
+.recept__section h2 {
+    margin: 0.5em;
+}
+
+.recept ul {
+    margin-bottom: 2em;
+}
+
+.recept ul li {
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 767px) {
+
+    .recept__section {
+        width: 100%;
+    }
+
+    .recept__section h2 {
+        text-align: center;
+    }
+
+}
